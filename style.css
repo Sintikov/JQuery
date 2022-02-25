@@ -1,0 +1,86 @@
+
+.hola{
+    background-color: #8fa5cf;
+ }
+
+.t2{
+    margin-top: -40px;
+    font-size: 23px;
+    color: #050505;
+}
+.body {
+    text-align: center;
+    background-color: #8fa5cf;
+}
+.text-center
+{
+    padding-top: 50px;
+    margin-bottom: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+.confirm{
+    margin-bottom: 26px;
+}
+
+input {
+    width: 30%;
+    padding: 10px 14px;
+    border: 2px solid #3d72d4;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 14px;
+    text-align: center;
+
+}
+.passwordConfirm{
+    margin-top: 5px;
+}
+
+.tips{
+    margin-top: -50px;
+    margin-left: 20px;
+    padding-top: 50px;
+    font-family: 'Lobster', cursive;
+}
+.show1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+.show2{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+.hah{
+    margin-top: 8px;
+}
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #050505;
+    backface-visibility: hidden;
+    border: 5px solid transparent;
+    border-radius: 10px;
+}
+
+.butt {
+    border-color: #2150a6;
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+
+.butt:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
